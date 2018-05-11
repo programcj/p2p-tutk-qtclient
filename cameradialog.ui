@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CameraDialog</class>
+ <widget class="QDialog" name="CameraDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>883</width>
+    <height>457</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QGroupBox {
+ border-color: #800000;
+                                        border-width: 2px;
+                                     border-style: solid;
+}</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>371</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Tutk ID</string>
+   </property>
+   <widget class="QPushButton" name="btSelectTUTKID">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Select TUTK ID</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_TutkID">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PTLWAADG3S834C5R111A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btConnect">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Connect</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_TutkUser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>admin</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_TutkPass">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>8VILNWTJ</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="btPlayVideo">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>340</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Play Video</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btPlayAudio">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>340</y>
+     <width>91</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Play Audio</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btSendAudio">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>340</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send Audio</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_Info">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>371</width>
+     <height>171</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btHistoryHour">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>410</y>
+     <width>99</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>History hour</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btHistoryMin">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>410</y>
+     <width>99</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>History min</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btHistoryDay">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>410</y>
+     <width>99</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>History day</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btHistoryFilePlay">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>340</y>
+     <width>99</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>History Play</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btHistoryDTabs">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>410</y>
+     <width>111</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>History dtabs</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>20</y>
+     <width>481</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>image</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
